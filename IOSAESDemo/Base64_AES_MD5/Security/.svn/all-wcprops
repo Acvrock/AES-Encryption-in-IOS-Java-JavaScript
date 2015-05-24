@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/project/cn/ChiefSign/!svn/ver/2961/src/MOA2.0/MOA/MOA/Classes/Utility/Security
+END
+Base64Utility.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/project/cn/ChiefSign/!svn/ver/2393/src/MOA2.0/MOA/MOA/Classes/Utility/Security/Base64Utility.m
+END
+NSString+MD5Encrypt.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/project/cn/ChiefSign/!svn/ver/2819/src/MOA2.0/MOA/MOA/Classes/Utility/Security/NSString+MD5Encrypt.h
+END
+NSData+AES.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/project/cn/ChiefSign/!svn/ver/2961/src/MOA2.0/MOA/MOA/Classes/Utility/Security/NSData+AES.h
+END
+NSString+MD5Encrypt.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/project/cn/ChiefSign/!svn/ver/2819/src/MOA2.0/MOA/MOA/Classes/Utility/Security/NSString+MD5Encrypt.m
+END
+NSData+AES.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/project/cn/ChiefSign/!svn/ver/2961/src/MOA2.0/MOA/MOA/Classes/Utility/Security/NSData+AES.m
+END
+Base64Utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/project/cn/ChiefSign/!svn/ver/2393/src/MOA2.0/MOA/MOA/Classes/Utility/Security/Base64Utility.h
+END
