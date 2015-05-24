@@ -1,0 +1,31 @@
+<script src="aes.js"></script>
+<script src="pad-zeropadding.js"></script>
+<script src="mode-ecb.js"></script>
+<script src="mode-ecb-min.js"></script>
+<script>
+var data = "TEST";
+//var key  = CryptoJS.enc.Latin1.parse('admin00000000000');
+//var iv   = CryptoJS.enc.Latin1.parse('1234567890123456');
+var key = CryptoJS.enc.Utf8.parse('admin00000000000');
+var iv = CryptoJS.enc.Utf8.parse('1234567890123456');
+//加密
+var encrypted = CryptoJS.AES.encrypt(data,key,{iv:iv,mode:CryptoJS.mode.ECB,padding:CryptoJS.pad.Pkcs7});
+ 
+document.write(encrypted.ciphertext);
+document.write('<br/>');
+document.write(encrypted.key);
+document.write('<br/>');
+document.write(encrypted.iv);
+document.write('<br/>');
+document.write(encrypted.salt);
+document.write('<br/>');
+document.write(encrypted);
+document.write('<br/>');
+ var encryptedBase64Str = encrypted.toString();
+// 输出：'RJcecVhTqCHHnlibzTypzuDvG8kjWC+ot8JuxWVdLgY='
+console.log(encryptedBase64Str);
+ 
+//解密
+var decrypted = CryptoJS.AES.decrypt(encrypted,key,{iv:iv,mode:CryptoJS.mode.ECB,padding:CryptoJS.pad.Pkcs7});
+console.log(decrypted.toString(CryptoJS.enc.Utf8));
+</script>
